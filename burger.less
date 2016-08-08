@@ -19,6 +19,7 @@
 @max-list-items: 5;
 @menu-list-item-height: 40px;
 @menu-list-item-spacing: @menu-list-item-height*0.25;
+
 .animation-mixin(@arguments) {
     -webkit-animation: @arguments;
     -moz-animation: @arguments;
@@ -46,7 +47,6 @@ div {
     display: inline-block;
     cursor: pointer;
     background-color: @menu-background;
-    border-radius: 10px;
     .menu-wrapper {
         min-width: 300px;
         min-height: 300px;
@@ -74,7 +74,6 @@ div {
                 .top-bread,
                 .bottom-bread,
                 .burger {
-                    border-radius: 5px;
                     background-color: @gray;
                     height: @bread-height;
                     width: @bread-width;

@@ -7,7 +7,6 @@ div {
   display: inline-block;
   cursor: pointer;
   background-color: #3f5aff;
-  border-radius: 10px;
 }
 .menu-container .menu-wrapper {
   min-width: 300px;
@@ -110,7 +109,6 @@ div {
 .menu-container .menu-wrapper .burger-container .burger-wrapper .top-bread,
 .menu-container .menu-wrapper .burger-container .burger-wrapper .bottom-bread,
 .menu-container .menu-wrapper .burger-container .burger-wrapper .burger {
-  border-radius: 5px;
   background-color: white;
   height: 8px;
   width: 60PX;
